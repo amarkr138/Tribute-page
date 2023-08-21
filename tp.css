@@ -1,0 +1,117 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: green;
+}
+/* a{
+    color: #ec7063;
+} */
+#img{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: 20px; */
+    /* border: 5px solid black; */
+}
+.main{
+    padding-left: 10px;
+    display: inline-block;
+    line-height: 20px;
+}
+.title{
+    text-align: center;
+    font-size: 10vb;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.description{
+    text-align: center;
+    font-size: 5vb;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.img-caption{
+    text-align: center;
+    font-size: 5vb;
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 5px;
+}
+.tribute-info{
+    margin-right: 30px;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+@media (max-width:800px){
+    #img{
+        width: 100%;
+        height: auto;
+        max-width: 660px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .main{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+    .title{
+        text-align: center;
+        font-size: 5vb;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .description{
+        text-align: center;
+        font-size: 5vb;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.img-caption{
+    text-align: center;
+    font-size: 5vb;
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 0%;
+
+}
+.tribute-info{
+    font-size: 12px;
+    margin-right: 20px;
+}
+h4{
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+}
+    
+
+
